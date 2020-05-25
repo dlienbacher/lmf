@@ -55,4 +55,4 @@ python3 main.py
 
 ![SessionMenu](img/sessionMenu.png)
 
-![Setup](img/.png)
+![Report](img/report.png)
