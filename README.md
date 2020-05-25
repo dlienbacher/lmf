@@ -30,7 +30,7 @@ msfrpcd -h
 
 ## Test Setup
 
-![kurze erklärung](img/Test-Umgebung.png)
+![Setup](img/Test-Umgebung.png)
 
 ## Usage
 
@@ -38,7 +38,7 @@ msfrpcd -h
 
 ```sh
 
-msfrpcd -P password -S -p 5000
+msfrpcd -P password -f -p 5000 -S
 
 ```
 
@@ -49,3 +49,10 @@ msfrpcd -P password -S -p 5000
 python3 main.py
 
 ```
+## Screens
+
+![startScreen](img/startScreen.png)
+
+![SessionMenu](img/sessionMenu.png)
+
+![Setup](img/.png)

@@ -12,7 +12,7 @@ lmf_logo = [' _        _______  _______ ',
             '| |      | |   | || (      ',
             '| (____/\\| )   ( || )      ',
             '(_______/|/     \\||/       ',
-            'by Thekenproleten (C)',
+            '',
             ]
 
 main_menu = {'Listener Handling':
