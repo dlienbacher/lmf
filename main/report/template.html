@@ -1,0 +1,22 @@
+<head></head>
+<body>
+    <h1>Report:</h1>
+    <table style="width:100%">
+        <tr>
+           <!-- {{ df.columns[1] }}-->
+            <th style="text-align:center">Order</th>
+            <th style="text-align:center">Command:</th>
+            <th style="text-align:center">Result:</th>
+        </tr>
+        {% for idx, row in df.iterrows() %}
+        
+        <tr style="text-align:center; border: 1px solid black;">
+            <td style="border: 1px solid black;"><b>{{ idx + 1 }}</b></td>
+            {% for colname in df.columns %}
+            <td style="border: 1px solid black;">{{ row[colname]}}</td>
+            {% endfor %}
+        </tr>
+        <!--<tr><td colspan="2">---</td></tr>-->
+        {% endfor %}
+    </table>
+</body>

@@ -1,0 +1,1 @@
+net use * /d /Y & net use \\{{TARGET}}\C$ {{PASSWORD}} /User:{{USER}} & copy {{SOURCE}} \\{{TARGET}}\c$\{{DEST}} & ping 127.0.0.1 -n 3 & PsExec64.exe -d \\{{TARGET}} -u {{USER}} -p {{PASSWORD}} -s cmd /c C:\{{DEST}}
