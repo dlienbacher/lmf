@@ -49,10 +49,11 @@ msfrpcd -P password -f -p 5000 -S
 python3 main.py
 
 ```
+
 ## Screens
 
-![startScreen](img/startScreen.png)
+![startScreen](img/startScreen.PNG)
 
-![SessionMenu](img/sessionMenu.png)
+![SessionMenu](img/sessionMenu.PNG)
 
-![Report](img/report.png)
+![Report](img/report.PNG)
